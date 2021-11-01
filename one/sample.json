@@ -1,0 +1,462 @@
+{
+  "@context": "/api/contexts/Category",
+  "@id": "/api/categories",
+  "@type": "hydra:Collection",
+  "hydramember": [
+    {
+      "@type": "Category",
+      "@id": "/api/categories/1",
+      "id": 1,
+      "eeCatId": 1,
+      "name": "Электроника",
+      "slug": "Elektronika",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Смартфоны",
+          "slug": "Smartfony",
+          "eeCatId": 3,
+          "imageUrl": null,
+          "categories": [
+            {
+              "id": 3,
+              "name": "XIAOMI",
+              "slug": "XIAOMI",
+              "eeCatId": 17,
+              "imageUrl": null
+            },
+            {
+              "id": 4,
+              "name": "MEIZU",
+              "slug": "MEIZU",
+              "eeCatId": 18,
+              "imageUrl": null
+            },
+            {
+              "id": 5,
+              "name": "SAMSUNG",
+              "slug": "SAMSUNG",
+              "eeCatId": 20,
+              "imageUrl": null
+            },
+            {
+              "id": 6,
+              "name": "APPLE",
+              "slug": "APPLE",
+              "eeCatId": 22,
+              "imageUrl": null
+            },
+            {
+              "id": 7,
+              "name": "GOOGLE",
+              "slug": "GOOGLE",
+              "eeCatId": 99,
+              "imageUrl": null
+            },
+            {
+              "id": 8,
+              "name": "LENOVO",
+              "slug": "LENOVO",
+              "eeCatId": 106,
+              "imageUrl": null
+            },
+            {
+              "id": 9,
+              "name": "SMARTISAN",
+              "slug": "SMARTISAN",
+              "eeCatId": 111,
+              "imageUrl": null
+            },
+            {
+              "id": 10,
+              "name": "ASUS",
+              "slug": "ASUS",
+              "eeCatId": 112,
+              "imageUrl": null
+            },
+            {
+              "id": 11,
+              "name": "ПРОСТУШКИ",
+              "slug": "PROSTUSHKI",
+              "eeCatId": 125,
+              "imageUrl": null
+            },
+            {
+              "id": 12,
+              "name": "ZTE",
+              "slug": "ZTE",
+              "eeCatId": 287,
+              "imageUrl": null
+            },
+            {
+              "id": 13,
+              "name": "ONEPLUS",
+              "slug": "ONEPLUS",
+              "eeCatId": 289,
+              "imageUrl": null
+            },
+            {
+              "id": 14,
+              "name": "Motorola",
+              "slug": "Motorola",
+              "eeCatId": 364,
+              "imageUrl": null
+            },
+            {
+              "id": 15,
+              "name": "OEM",
+              "slug": "OEM",
+              "eeCatId": 568,
+              "imageUrl": null
+            },
+            {
+              "id": 16,
+              "name": "Realme",
+              "slug": "Realme",
+              "eeCatId": 591,
+              "imageUrl": null
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Аудио, фото и видеотехника",
+          "slug": "Audio-foto-i-videotekhnika",
+          "eeCatId": 16,
+          "imageUrl": null,
+          "categories": [
+            {
+              "id": 18,
+              "name": "Аудиотехника",
+              "slug": "Audiotekhnika",
+              "eeCatId": 45,
+              "imageUrl": null
+            },
+            {
+              "id": 19,
+              "name": "Фотоаппараты",
+              "slug": "Fotoapparaty",
+              "eeCatId": 108,
+              "imageUrl": null
+            },
+            {
+              "id": 20,
+              "name": "Tv-тюнеры",
+              "slug": "Tv-tyunery",
+              "eeCatId": 116,
+              "imageUrl": null
+            },
+            {
+              "id": 21,
+              "name": "Обьективы",
+              "slug": "Ob-yektivy",
+              "eeCatId": 117,
+              "imageUrl": null
+            },
+            {
+              "id": 22,
+              "name": "Стационарные медиаплееры",
+              "slug": "Statsionarnyye-mediapleyery",
+              "eeCatId": 196,
+              "imageUrl": null
+            },
+            {
+              "id": 23,
+              "name": "Мультимедиа-проекторы",
+              "slug": "Mul-timedia-proyektory",
+              "eeCatId": 197,
+              "imageUrl": null
+            },
+            {
+              "id": 24,
+              "name": "Экшн-камеры",
+              "slug": "Ekshn-kamery",
+              "eeCatId": 198,
+              "imageUrl": null
+            },
+            {
+              "id": 25,
+              "name": "Видеокамеры",
+              "slug": "Videokamery",
+              "eeCatId": 199,
+              "imageUrl": null
+            },
+            {
+              "id": 26,
+              "name": "Квадрокоптеры",
+              "slug": "Kvadrokoptery",
+              "eeCatId": 200,
+              "imageUrl": null
+            },
+            {
+              "id": 27,
+              "name": "Аксессуары",
+              "slug": "Aksessuary",
+              "eeCatId": 437,
+              "imageUrl": null
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Игры и приставки",
+          "slug": "Igry-i-pristavki",
+          "eeCatId": 114,
+          "imageUrl": null,
+          "categories": [
+            {
+              "id": 29,
+              "name": "Игровые приставки",
+              "slug": "Igrovyye-pristavki",
+              "eeCatId": 115,
+              "imageUrl": null
+            },
+            {
+              "id": 30,
+              "name": "Аксессуары",
+              "slug": "Aksessuary",
+              "eeCatId": 119,
+              "imageUrl": null
+            },
+            {
+              "id": 31,
+              "name": "Игры для приставок и ПК",
+              "slug": "Igry-dlya-pristavok-i-PK",
+              "eeCatId": 120,
+              "imageUrl": null
+            },
+            {
+              "id": 32,
+              "name": "Ретро консоли",
+              "slug": "Retro-konsoli",
+              "eeCatId": 122,
+              "imageUrl": null
+            },
+            {
+              "id": 33,
+              "name": "Рули, джойстики, геймпады",
+              "slug": "Ruli-dzhoistiki-geimpady",
+              "eeCatId": 123,
+              "imageUrl": null
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "Аксессуары и портативная техника",
+          "slug": "Aksessuary-i-portativnaya-tekhnika",
+          "eeCatId": 424,
+          "imageUrl": null,
+          "categories": [
+            {
+              "id": 35,
+              "name": "Наушники и bluetooth гарнитуры",
+              "slug": "Naushniki-i-bluetooth-garnitury",
+              "eeCatId": 27,
+              "imageUrl": null
+            },
+            {
+              "id": 36,
+              "name": "Портативная акустика",
+              "slug": "Portativnaya-akustika",
+              "eeCatId": 192,
+              "imageUrl": null
+            },
+            {
+              "id": 37,
+              "name": "Очки виртуальной реальности",
+              "slug": "Ochki-virtual-noi-real-nosti",
+              "eeCatId": 193,
+              "imageUrl": null
+            },
+            {
+              "id": 38,
+              "name": "Планшеты",
+              "slug": "Planshety",
+              "eeCatId": 194,
+              "imageUrl": null
+            },
+            {
+              "id": 39,
+              "name": "Умные колонки",
+              "slug": "Umnyye-kolonki",
+              "eeCatId": 195,
+              "imageUrl": null
+            },
+            {
+              "id": 40,
+              "name": "Смарт часы и аксессуары",
+              "slug": "Smart-chasy-i-aksessuary",
+              "eeCatId": 254,
+              "imageUrl": null
+            },
+            {
+              "id": 41,
+              "name": "Другие",
+              "slug": "Drugiye",
+              "eeCatId": 349,
+              "imageUrl": null
+            },
+            {
+              "id": 42,
+              "name": "Зарядки",
+              "slug": "Zaryadki",
+              "eeCatId": 428,
+              "imageUrl": null
+            },
+            {
+              "id": 43,
+              "name": "Чехлы",
+              "slug": "Chekhly",
+              "eeCatId": 429,
+              "imageUrl": null
+            },
+            {
+              "id": 44,
+              "name": "Наушники",
+              "slug": "Naushniki",
+              "eeCatId": 430,
+              "imageUrl": null
+            },
+            {
+              "id": 45,
+              "name": "Защита экрана",
+              "slug": "Zashchita-ekrana",
+              "eeCatId": 431,
+              "imageUrl": null
+            },
+            {
+              "id": 46,
+              "name": "Держатели",
+              "slug": "Derzhateli",
+              "eeCatId": 432,
+              "imageUrl": null
+            },
+            {
+              "id": 47,
+              "name": "Карты памяти",
+              "slug": "Karty-pamyati",
+              "eeCatId": 433,
+              "imageUrl": null
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "Системы безопасности",
+          "slug": "Sistemy-bezopasnosti",
+          "eeCatId": 536,
+          "imageUrl": null,
+          "categories": [
+            {
+              "id": 49,
+              "name": "IP Камеры",
+              "slug": "IP-Kamery",
+              "eeCatId": 537,
+              "imageUrl": null
+            },
+            {
+              "id": 50,
+              "name": "HDCVI Камеры",
+              "slug": "HDCVI-Kamery",
+              "eeCatId": 538,
+              "imageUrl": null
+            },
+            {
+              "id": 51,
+              "name": "WIFI Камеры",
+              "slug": "WIFI-Kamery",
+              "eeCatId": 539,
+              "imageUrl": null
+            },
+            {
+              "id": 52,
+              "name": "Видео Регистраторы",
+              "slug": "Video-Registratory",
+              "eeCatId": 540,
+              "imageUrl": null
+            },
+            {
+              "id": 53,
+              "name": "Кабели и разьёмы",
+              "slug": "Kabeli-i-raz-yemy",
+              "eeCatId": 541,
+              "imageUrl": null
+            },
+            {
+              "id": 54,
+              "name": "Носители данных",
+              "slug": "Nositeli-dannykh",
+              "eeCatId": 542,
+              "imageUrl": null
+            },
+            {
+              "id": 55,
+              "name": "Сигнализации и оповещения",
+              "slug": "Signalizatsii-i-opoveshcheniya",
+              "eeCatId": 543,
+              "imageUrl": null
+            },
+            {
+              "id": 56,
+              "name": "Аксессуары",
+              "slug": "Aksessuary",
+              "eeCatId": 544,
+              "imageUrl": null
+            },
+            {
+              "id": 57,
+              "name": "Аудио и видео домофоны",
+              "slug": "Audio-i-video-domofony",
+              "eeCatId": 546,
+              "imageUrl": null
+            },
+            {
+              "id": 58,
+              "name": "Управляющие устройства",
+              "slug": "Upravlyayushchiye-ustroistva",
+              "eeCatId": 547,
+              "imageUrl": null
+            },
+            {
+              "id": 59,
+              "name": "Замки и другие устройства",
+              "slug": "Zamki-i-drugiye-ustroistva",
+              "eeCatId": 548,
+              "imageUrl": null
+            },
+            {
+              "id": 60,
+              "name": "Вызывные панели",
+              "slug": "Vyzyvnyye-paneli",
+              "eeCatId": 549,
+              "imageUrl": null
+            },
+            {
+              "id": 61,
+              "name": "Считывающие устройства",
+              "slug": "Schityvayushchiye-ustroistva",
+              "eeCatId": 550,
+              "imageUrl": null
+            },
+            {
+              "id": 62,
+              "name": "Управляющие устройства",
+              "slug": "Upravlyayushchiye-ustroistva",
+              "eeCatId": 551,
+              "imageUrl": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hydra:totalItems": 14,
+  "hydra:view": {
+    "@id": "/api/categories?page=1",
+    "@type": "hydra:PartialCollectionView",
+    "hydra:first": "/api/categories?page=1",
+    "hydra:last": "/api/categories?page=14",
+    "hydra:next": "/api/categories?page=2"
+  }
+}
